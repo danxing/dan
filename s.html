@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div id="result">
+        <div>姓名：<input type="text" id="name"></div>
+        <div>电话：<input type="number" id="number"></div>
+        <div><input type="button" value="新增记录" onclick="save()"></div>
+</div>
+<div>
+    <div>
+        查询的姓名：<input type="text" id="names"><br>
+        查询结果：<input type="text" onclick=gets()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "">
+        <input type="number">
+    </div>
+</div>
+<script>
+
+    function save(){
+       var names=document.getElementById('name').value;
+       var numbers=document.getElementById('number').value;
+       localStorage.setItem(names,numbers);
+       alert('添加成功！');
+ }
+</script>
+</body>
+</html>

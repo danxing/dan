@@ -1,0 +1,172 @@
+/*头部*/
+.nav{
+    width:100%;
+    height:35px;
+    background-color: #333;
+}
+.nav>div{
+    width:1008px;
+    height:100%;
+    margin: 0 auto;
+}
+.nav>div ul{
+/*    width:732px;*/
+    height:100%;
+    float: right;
+}
+.nav>div ul li{
+    float: left;
+    padding:0 10px;
+    line-height: 35px;
+
+}
+.nav>div ul li .actives{
+    background: #414141!important;
+    color: #ddd;
+}
+.nav>div ul li a{
+    height:100%;
+    width: 100%;
+    color:#999;
+}
+.nav>div ul li:hover{
+    background: #222;
+}
+.nav2{
+    width: 100%;
+    height:170px;
+    background-color: #F8F8F8;
+}
+.nav2 .nav2_box{
+    width:1008px;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.nav2 .nav2_box>div:nth-child(1){
+    width: 228px;
+    height: 100%;
+    margin:0 12px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav2 .nav2_box>div:nth-child(2){
+    width: 724px;
+    height: 100%;
+}
+.nav2 .nav2_box>div:nth-child(2) .top{
+    height:86px;
+    border-bottom: 1px solid #e5e5e5;
+    margin:0 12px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2 .nav2_box>div:nth-child(2) .top .left p{
+    color: #777;
+    float: left;
+    font: normal 13px/20px 'PT Sans', Arial, Verdana, sans-serif;
+    margin: 35px 0 0 0;
+}
+.nav2 .nav2_box>div:nth-child(2) .top .left p a{
+    color: #222;
+}
+
+.Search_box{
+    float: right;
+    margin: 23px 0 0 0;
+    position: relative;
+}
+.nav2 .nav2_box>div:nth-child(2) .top .right  .inputs{
+    background: #fff;
+    border: 1px solid #f8f8f8;
+    border-radius: 19px;
+    -moz-border-radius: 19px;
+    -khtml-border-radius: 19px;
+
+    color: #777;
+    font: normal 13px 'PT Sans', Arial, Verdana, sans-serif;
+    height: 36px;
+    padding: 0 19px 0 16px;
+    width: 169px;
+}
+.nav2 .nav2_box>div:nth-child(2) .top .right .inputs:focus{
+    border: 1px solid #dbdee2;
+    border-top: 1px solid #cbd0d6;
+    border-bottom: 1px solid #eaecef;
+    box-shadow: inset 1px 3px 4px #cbd0d6;
+    -moz-box-shadow: inset 1px 3px 4px #cbd0d6;
+    -webkit-box-shadow: inset 1px 3px 4px #cbd0d6;
+    outline: none;
+}
+.nav2 .nav2_box>div:nth-child(2) .top .right .inputs:hover{
+    outline: none;
+    border: 1px solid #f8cac0;
+    box-shadow: 0px 0px 4px #f8cac0;
+    -moz-box-shadow: 0px 0px 4px #f8cac0;
+    -webkit-box-shadow: 0px 0px 4px #f8cac0;
+}
+.nav2 .nav2_box>div:nth-child(2) .top .right .inputs:hover .submits{
+    background: url(../img/bg_search.png) no-repeat right center;
+}
+.nav2 .nav2_box>div:nth-child(2) .top .right .submits{
+    background: url(../img/bg_search.png) no-repeat left center;
+    border: 0 none;
+    height: 38px;
+    margin: 0 0 0 168px;
+    outline: none;
+    padding: 0;
+    position: absolute;
+    width: 38px;
+    display: block;
+    -webkit-border-radius:19px;
+    -moz-border-radius:19px;
+    border-radius:19px;
+    top:0;
+    color: #fff;
+    text-align: center;
+    font: bold 13px 'PT Sans', Arial, Verdana, sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.nav2 .nav2_box>div:nth-child(2) .bottom{
+    margin-top: 10px;
+}
+.nav2 .nav2_box>div:nth-child(2) .bottom ul li a{
+    color: #444;
+    float: left;
+    font: bold 13px/38px 'PT Sans', Arial, Verdana, sans-serif;
+    height: 38px;
+    padding: 0 15px;
+    text-transform: uppercase;
+
+
+}
+.nav2 .nav2_box>div:nth-child(2) .bottom ul li a:focus {
+    outline: thin dotted;
+}
+.nav2 .nav2_box>div:nth-child(2) .bottom ul li.curent a {
+    background: #f5f5f5;
+    border-radius: 19px;
+    -moz-border-radius: 19px;
+    -khtml-border-radius: 19px;
+   /* behavior: url(PIE.htc);*/
+    color: #444;
+}
+.nav2 .nav2_box>div:nth-child(2) .bottom ul li:hover a {
+    background: #eb6447;
+    border-radius: 19px;
+    -moz-border-radius: 19px;
+    -khtml-border-radius: 19px;
+   /* behavior: url(PIE.htc);*/
+    color: #fff;
+    text-decoration: none;
+}
